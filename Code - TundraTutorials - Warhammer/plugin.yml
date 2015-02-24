@@ -1,6 +1,0 @@
-name: Warhammer
-main: io.github.Skepter.Warhammer.Warhammer
-version: 1.0
-description: A simple warhammer plugin using the AllAssets API
-author: Skepter
-depend: [AllAssets]
