@@ -13,7 +13,7 @@ public class Warhammer extends JavaPlugin {
 		ItemStack wh = new ItemBuilder(Material.GOLD_AXE).setDisplayName("Warhammer").setLore("USE WITH CAUTION!").addGlow().build();
 		new WarhammerItem(this, wh, "Warhammer", "Warhammer.use");
 		
-		ItemStack dw = new ItemBuilder(new ItemStack(Material.BLAZE_ROD)).setDisplayName("Death wand").setLore("Right click to kill all").addGlow().build();
+		ItemStack dw = new ItemBuilder(Material.BLAZE_ROD).setDisplayName("Death wand").setLore("Right click to kill all").addGlow().build();
 		new DeathWandItem(this, dw, "Deathwand");
 	}
 }
