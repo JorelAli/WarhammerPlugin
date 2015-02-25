@@ -15,5 +15,8 @@ public class Warhammer extends JavaPlugin {
 		
 		ItemStack dw = new ItemBuilder(Material.BLAZE_ROD).setDisplayName("Death wand").setLore("Right click to kill all").addGlow().build();
 		new DeathWandItem(this, dw, "Deathwand");
+		
+		ItemStack mbr = new ItemBuilder(Material.IRON_AXE).setDisplayName("MassBlockRemover").setLore("Removes blocks").addGlow().build();
+		new MassBlockRemoverItem(this, mbr, "MassBlockRemover");
 	}
 }
