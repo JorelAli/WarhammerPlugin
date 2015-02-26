@@ -1,6 +1,6 @@
 package io.github.Skepter.Warhammer;
 
-import io.github.Skepter.AllAssets.API.CustomItem;
+import io.github.skepter.allassets.api.CustomItem;
 
 import org.bukkit.Location;
 import org.bukkit.entity.Player;

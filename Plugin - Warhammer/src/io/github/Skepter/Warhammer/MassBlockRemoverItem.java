@@ -1,7 +1,7 @@
 package io.github.Skepter.Warhammer;
 
-import io.github.Skepter.AllAssets.API.CustomItem;
-import io.github.Skepter.AllAssets.API.Utils.Sphere;
+import io.github.skepter.allassets.api.CustomItem;
+import io.github.skepter.allassets.api.utils.Sphere;
 
 import org.bukkit.Location;
 import org.bukkit.Material;

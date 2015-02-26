@@ -1,6 +1,6 @@
 package io.github.Skepter.Warhammer;
 
-import io.github.Skepter.AllAssets.API.Builders.ItemBuilder;
+import io.github.skepter.allassets.api.builders.ItemBuilder;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
