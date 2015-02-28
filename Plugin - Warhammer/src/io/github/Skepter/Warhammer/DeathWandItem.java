@@ -15,21 +15,25 @@ public class DeathWandItem extends CustomItem {
 	}
 
 	@Override
-	public void leftClickBlock(Player paramPlayer) {		
+	public boolean leftClickBlock(Player paramPlayer) {
+		return false;
 	}
 
 	@Override
-	public void rightClickBlock(Player paramPlayer) {
+	public boolean rightClickBlock(Player paramPlayer) {
 		kill(paramPlayer);
+		return true;
 	}
 
 	@Override
-	public void leftClickAir(Player paramPlayer) {		
+	public boolean leftClickAir(Player paramPlayer) {
+		return false;
 	}
 
 	@Override
-	public void rightClickAir(Player paramPlayer) {
+	public boolean rightClickAir(Player paramPlayer) {
 		kill(paramPlayer);
+		return true;
 	}
 	
 	private void kill(Player player) {

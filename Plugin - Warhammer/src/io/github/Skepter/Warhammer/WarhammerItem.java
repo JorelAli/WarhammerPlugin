@@ -15,21 +15,25 @@ public class WarhammerItem extends CustomItem {
 	}
 
 	@Override
-	public void leftClickAir(Player player) {
+	public boolean leftClickAir(Player player) {
+		return false;
 	}
 
 	@Override
-	public void leftClickBlock(Player player) {
+	public boolean leftClickBlock(Player player) {
+		return false;
 	}
 
 	@Override
-	public void rightClickAir(Player player) {
+	public boolean rightClickAir(Player player) {
 		createExplosion(player);
+		return true;
 	}
 
 	@Override
-	public void rightClickBlock(Player player) {
+	public boolean rightClickBlock(Player player) {
 		createExplosion(player);
+		return true;
 	}
 
 	private void createExplosion(Player player) {
