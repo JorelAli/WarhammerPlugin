@@ -7,7 +7,7 @@ API classes used:
 * [CustomItem](https://github.com/Skepter/AllAssets/blob/master/Plugin%20-%20AllAssets/src/io/github/skepter/allassets/api/CustomItem.java) - Used to create the customized item and give it 'functions' when right/left clicked.
 * [ItemBuilder](https://github.com/Skepter/AllAssets/blob/master/Plugin%20-%20AllAssets/src/io/github/skepter/allassets/api/builders/ItemBuilder.java) - Used to create the customized ItemStack and give it a fancy display name, lore and glowing effect.
 
-Example usage (Shown by [WarhammerItem](https://github.com/Skepter/Warhammer/blob/master/Plugin%20-%20Warhammer/src/io/github/Skepter/Warhammer/WarhammerItem.java):
+Example usage (Shown by [WarhammerItem](https://github.com/Skepter/Warhammer/blob/master/Plugin%20-%20Warhammer/src/io/github/Skepter/Warhammer/WarhammerItem.java)):
 * Have your class extend the [CustomItem](https://github.com/Skepter/AllAssets/blob/master/Plugin%20-%20AllAssets/src/io/github/skepter/allassets/api/CustomItem.java) class.
 * Choose a constructor - 
   ```java
